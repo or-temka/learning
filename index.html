@@ -4,8 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Learning</title>
+  <link rel="stylesheet" href="_common/normalize.css">
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  
+  <main class="main">
+    <div class="input-data">
+      <textarea class="input-data__text-area" name="textarea" rows="5"></textarea>
+      <div class="input-data__checkbox-wrapper">
+        <input class="input-data__input-checkbox" id="input-data__checkbox" type="checkbox">
+        <label class="input-data__label-for-checkbox" for="input-data__checkbox">Отметь меня</label>
+      </div>
+      <button class="input-data__button button">Отправить</button>
+      <p class="input-data__answer">...</p>
+    </div>
+  </main>
 </body>
 </html>
