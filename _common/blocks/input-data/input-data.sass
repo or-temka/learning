@@ -2,12 +2,10 @@
   margin: 0 auto
   max-width: 300px
   background-color: lighten($base__bg-color, 10%)
-  border: 5px solid lighten($base__bg-color, 5%)
-  border-radius: 10px
   padding: 20px
   display: flex
   flex-direction: column
-  box-shadow: 0px 0px 20px #0000005b
+  @include container-border
   
   &__text-area
     background-color: lighten($base__bg-color, 15%)
